@@ -1,0 +1,268 @@
+body {
+  background: white; }
+
+html, body {
+  height: 100%; }
+
+.header {
+  height: 50px; }
+  .header .logo {
+    font-size: 20px;
+    color: #06324c;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-image: url("../img/push4reform_logo.png");
+    background-repeat: no-repeat;
+    height: 100%; }
+
+.profile img {
+  width: 100%; }
+.profile h1, .profile h2 {
+  margin: 5px 0; }
+.profile .progress-container {
+  position: relative; }
+  .profile .progress-container .progress {
+    margin: 20px 0 0; }
+  .profile .progress-container .percentage {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+.reps-list {
+  margin-top: 20px; }
+  .reps-list .representative-container .thumbnail {
+    padding: 0; }
+    .reps-list .representative-container .thumbnail .clip {
+      height: 200px;
+      overflow: hidden; }
+    .reps-list .representative-container .thumbnail img {
+      width: 100%;
+      margin-top: -50px; }
+  .reps-list .grade {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 33px;
+    border: 5px solid white;
+    -webkit-box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.5);
+    box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.5);
+    position: absolute;
+    top: -23px;
+    left: 109px; }
+    .reps-list .grade.a {
+      background: #00eecf; }
+    .reps-list .grade.b {
+      background: #e5e200; }
+    .reps-list .grade.c {
+      background: #e59700; }
+    .reps-list .grade.d {
+      background: #ba511e; }
+    .reps-list .grade.f {
+      background: #ae3451; }
+    .reps-list .grade.a-plus span {
+      margin-left: 5px; }
+  .reps-list .caption {
+    padding-top: 20px;
+    position: relative; }
+    .reps-list .caption h1 {
+      color: #360a44;
+      font-size: 20px; }
+    .reps-list .caption h1, .reps-list .caption h2, .reps-list .caption h3 {
+      text-align: center;
+      margin: 10px 0; }
+    .reps-list .caption h2, .reps-list .caption h3 {
+      font-weight: lighter;
+      color: #5d5360;
+      font-size: 14px; }
+    .reps-list .caption h3 {
+      text-transform: uppercase;
+      margin-bottom: 20px; }
+
+.grade {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 33px;
+  border: 5px solid white;
+  -webkit-box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.3); }
+  .grade.a {
+    background: #00eecf; }
+  .grade.b {
+    background: #e5e200; }
+  .grade.c {
+    background: #e59700; }
+  .grade.d {
+    background: #ba511e; }
+  .grade.f {
+    background: #ae3451; }
+  .grade.a-plus span {
+    margin-left: 5px; }
+
+.zip-container {
+  background-image: url("../img/home-bg.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #f7edef;
+  height: 300px;
+  color: #06324c; }
+  .zip-container p {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Nexa-Bold;
+    font-weight: lighter;
+    font-size: 15px; }
+  .zip-container h1 {
+    font-size: 50px;
+    width: 960px;
+    margin: 20px auto;
+    text-align: center; }
+  .zip-container form {
+    text-align: center; }
+
+.profile-page {
+  background-image: url("../img/bigprofile.jpg");
+  background-size: 100% auto;
+  height: 100%;
+  padding-top: 50px;
+  overflow: auto; }
+  .profile-page .row.top {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
+  .profile-page .facebook-faces {
+    padding-left: 27px;
+    position: relative; }
+    .profile-page .facebook-faces .overlay {
+      height: 70px;
+      position: absolute;
+      background: black;
+      opacity: 0.5;
+      width: 70px; }
+    .profile-page .facebook-faces div.clip {
+      height: 70px;
+      width: 70px;
+      overflow: hidden;
+      float: left;
+      margin-bottom: 0; }
+      .profile-page .facebook-faces div.clip img {
+        margin: 0;
+        min-height: 70px; }
+  .profile-page .profile-container {
+    overflow: auto;
+    width: 800px;
+    height: 100%;
+    background: white;
+    margin: 0 auto;
+    padding: 25px 40px; }
+    .profile-page .profile-container .overlay-text {
+      height: 100%;
+      position: absolute;
+      width: 700px;
+      z-index: 1001; }
+      .profile-page .profile-container .overlay-text h1 {
+        font-weight: lighter;
+        margin-top: 30px;
+        color: white; }
+      .profile-page .profile-container .overlay-text h2, .profile-page .profile-container .overlay-text h1, .profile-page .profile-container .overlay-text a {
+        color: white;
+        text-align: center; }
+      .profile-page .profile-container .overlay-text h2 {
+        font-size: 20px; }
+      .profile-page .profile-container .overlay-text a {
+        display: block;
+        text-decoration: underline;
+        font-weight: normal; }
+    .profile-page .profile-container .btn-block .fa {
+      position: absolute;
+      left: 10px;
+      font-size: 22px; }
+    .profile-page .profile-container h1 {
+      color: #06324c;
+      font-size: 35px;
+      margin: 10px 0 0;
+      font-family: Nexa-Bold; }
+    .profile-page .profile-container h2, .profile-page .profile-container h3 {
+      font-weight: lighter;
+      color: #5d5360;
+      font-size: 14px;
+      margin: 0; }
+    .profile-page .profile-container h3 {
+      text-transform: uppercase; }
+  .profile-page .clip {
+    height: 210px;
+    overflow: hidden;
+    margin-bottom: 10px; }
+    .profile-page .clip img {
+      margin-top: -25px;
+      width: 100%; }
+  .profile-page .btn {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    border-radius: 0; }
+    .profile-page .btn span {
+      position: absolute;
+      left: 10px;
+      top: 12px; }
+    .profile-page .btn.phone {
+      background: #0e7293; }
+    .profile-page .btn.twitter {
+      background: #21b1ed; }
+    .profile-page .btn.fb {
+      background: #39579a; }
+  .profile-page .grade-section {
+    padding: 20px 0;
+    margin-top: 10px;
+    border-top: 1px solid #e5e5e5; }
+    .profile-page .grade-section h2 {
+      line-height: 28px; }
+    .profile-page .grade-section.first h2 {
+      line-height: normal; }
+    .profile-page .grade-section .yes, .profile-page .grade-section .no {
+      font-size: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      display: block; }
+    .profile-page .grade-section .no {
+      color: #ae3451; }
+    .profile-page .grade-section .yes {
+      color: #00eecf; }
+    .profile-page .grade-section .grade {
+      margin-top: -6px; }
+    .profile-page .grade-section h2 {
+      color: #06324c;
+      font-weight: normal; }
+    .profile-page .grade-section .social {
+      margin-top: 5px; }
+      .profile-page .grade-section .social a {
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        color: white;
+        height: 20px;
+        width: 20px;
+        display: inline-block; }
+        .profile-page .grade-section .social a.facebook {
+          background: #39579a; }
+          .profile-page .grade-section .social a.facebook i {
+            margin-left: 8px; }
+        .profile-page .grade-section .social a.twitter {
+          background: #21b1ed; }
+          .profile-page .grade-section .social a.twitter i {
+            margin-left: 3px; }
